@@ -1,0 +1,31 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { background: #222; color: #fff; padding: 15px; }
+nav a { color: #fff; margin-right: 15px; text-decoration: none; }
+main { padding: 20px; }
+article { margin-bottom: 20px; }
+footer { background: #eee; text-align: center; padding: 10px; }
+form input, form textarea { width: 100%; margin-bottom: 10px; padding: 8px; }
+button { padding: 8px 15px; }
+
+.vitamins {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+.vitamin-box {
+  padding: 15px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+.vit-c { background: #2ecc71; }
+.vit-a { background: #f39c12; }
+.antiox { background: #3498db; }
+.fiber { background: #9b59b6; }
+.post-image {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
